@@ -1,0 +1,91 @@
+
+body{
+    width: 90%;
+    margin: 0 auto;
+    font-family: sans-serif;
+    color: aliceblue;
+    background-color: rgb(72, 72, 133);
+}
+
+li{
+    display: inline;
+    padding: 5px;
+    text-decoration: none;
+}
+li a{
+    text-decoration: none;
+    color: aliceblue;
+}
+h1{
+    text-align: left;
+    
+}
+h3{
+    text-align: center;
+}
+
+.nav{
+    text-align: center;
+    
+    /* background-color: aqua; */
+}
+.roster-senin, .roster-jumat, .roster-sabtu{
+    background-color: #efefef;
+    /* padding: 10px; */
+    /* margin: 10px auto; */
+     float: left;
+    /* width: 30%; */
+    width: 330px;
+    margin: 10px;
+    padding: 10px;
+    height: 260px;
+    background-color: rgb(141, 176, 206);
+    color: black;
+    border-radius: 20px;
+
+}
+.roster-selasa-o, .roster-rabu-o, .roster-kamis-o{
+    width: 330px;
+    margin: 10px;
+    padding: 10px;
+    height: 260px;
+    background-color: rgb(141, 176, 206);
+    float: left;
+    color: black;
+    border-radius: 20px;
+}
+.roster-selasa-o table, .roster-rabu-o table, .roster-kamis-o table{
+   padding: 30px;
+}
+table{
+    text-align: center;
+    margin: auto;
+}
+
+.clearer {
+    clear: both;
+    padding: 10px;
+    text-align: center;
+    color: darkgrey;
+    width: auto;
+}
+
+#Informasi h3{
+    text-align: left
+}
+
+/* #header{
+    background-color: black;
+    margin: 0 auto;
+} */
+
+table td input{ 
+    color: aliceblue;
+    background-color: green;
+    height: 25px;
+    width: 60px;
+    box-shadow: none;
+    border-radius: 5px;
+    border-color: green;
+}
+
